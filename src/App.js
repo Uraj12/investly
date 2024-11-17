@@ -33,7 +33,7 @@ const TradingDashboard = () => {
     <div className="bg-gray-900 text-white min-h-screen font-sans flex flex-col">
       <header className="bg-gray-800 p-4 flex items-center justify-between">
         <div className="flex items-center space-x-6">
-          <span className="text-2xl font-bold text-blue-500">TY</span>
+          <span className="text-2xl font-bold text-blue-500">Investly</span>
           <nav className="hidden md:flex space-x-6">
             {['Products', 'Community', 'Markets', 'News', 'Brokers'].map((item) => (
               <a key={item} href="#" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">{item}</a>
