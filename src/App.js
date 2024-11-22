@@ -53,7 +53,7 @@ const TradingDashboard = () => {
       
       <main className="flex-grow p-6 overflow-hidden flex">
         <div className="flex-grow mr-4">
-          <h2 className="text-2xl font-semibold mb-6 text-blue-400">Market analysis</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-blue-400">Market summery</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
             {indices.map((index) => (
               <div key={index.name} className="bg-gray-800 p-4 rounded-lg shadow-lg">
